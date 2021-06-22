@@ -83,7 +83,7 @@ html{
 #home::before{ 
     content: "";
     position: absolute;
-    background: url('/img/bg.jpg') no-repeat center center/cover;
+    background: url('../img/bg.jpg');
     height: 642px;
     top:0px;
     left:0px;
@@ -147,7 +147,7 @@ html{
 
 .another-item{
     padding: 150px;
-    background: url('/img/img.jpg');
+    background: url('../img/img.jpg');
     height: 500px;
     color: white;
     text-align: center;
